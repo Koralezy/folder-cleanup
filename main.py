@@ -48,7 +48,7 @@ for filename in os.listdir(startdir):
 
 print("Done!")
 if len(errorlist) > 0:
-    a = input(f"We found {len(errorlist)}, errors. Press ENTER to see them.")
+    a = input(f"We found {len(errorlist)} error(s). Press ENTER to see them.")
     if a != "" or a == "":
         for x, y in errorlist.items():
             print(f"File: {x} - Error: {y}")
